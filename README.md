@@ -10,7 +10,7 @@ Provides Live stats of Corona cases for:
 
 ---
 ## For Live Demo: [Click Here](NETLIFY_LINK)
----
+
 
 ## Prerequisites 📋
 
