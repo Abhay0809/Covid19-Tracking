@@ -8,7 +8,6 @@ Provides Live stats of Corona cases for:
 * India (All States/UTs)
 * World (All Countries)
 
----
 ## For Live Demo: [Click Here](NETLIFY_LINK)
 
 
