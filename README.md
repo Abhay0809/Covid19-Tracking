@@ -44,7 +44,7 @@ npm start
 - [Material UI](https://material-ui.com/) - React UI Framework
 - [Chart.js](https://www.chartjs.org/) - HTML5 Charts
 - [Axios](https://github.com/axios/axios) - Promise based HTTP client
----
+
 
 ## Data Source
 
