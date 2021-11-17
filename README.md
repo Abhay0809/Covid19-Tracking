@@ -1,7 +1,7 @@
 # COVID-19 Tracker
 
 Tracks COVID19 Live Stats
----
+
 ## Feature
 
 Provides Live stats of Corona cases for:
