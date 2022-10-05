@@ -25,7 +25,7 @@ To setup the app for development on your local machine, please follow the instru
 
 - Clone the repo to your machine
 ```bash
-git clone <GIT_LINK>
+git clone https://github.com/Abhay0809/Covid19-Tracking
 ```
 - Install necessary packages
 ```bash
@@ -56,6 +56,10 @@ Data is fetched from different sources as given below.
 | World      | https://covid19.mathdro.id/api/                                     |
 ---
 
+## Contributers
+<a  href="https://github.com/Abhay0809/Covid19-Tracking/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Abhay0809/Covid19-Tracking" />
+</a>
 
 ## License 📄
 
