@@ -50,7 +50,7 @@ export const fetchTNGraphData = async () => {
 
 export const fetchIndiaData = async () => {
     try {
-        const {data : {statewise}}  = await axios.get(`${apiUrl}/data.json`);
+        const {data : {statewise}}  = await axios.get(`${apiUrl}/v4/min/data.min.json`);
         const stateData = statewise.filter((a, b) => a.state!=='Total')
             .sort((a, b) => parseInt(b.confirmed) - parseInt(a.confirmed))
             .map(({ state, confirmed, active, recovered,
@@ -138,7 +138,7 @@ export const fetchCountries = async () => {
 
 export const fetchTNTotCnt = async () => {
     try {
-        const {data : {statewise}}  = await axios.get(`${apiUrl}/data.json`);
+        const {data : {statewise}}  = await axios.get(`${apiUrl}/v4/min/data.min.json`);
         const { confirmed, recovered,
             deaths, deltaconfirmed, deltadeaths, deltarecovered} = statewise.find((a, b) => a.state==='Bihar');
         return {
